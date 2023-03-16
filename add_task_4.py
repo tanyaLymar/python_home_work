@@ -13,7 +13,7 @@
 
 
 S = int(input("Сделано журавликов: "))
-Petya = Serezha =  S // 6
-Katya = Petya * 4
-childrens = [Petya, Katya, Serezha]
+petya = serezha =  S // 6
+katya = katya * 4
+childrens = [petya, katya, serezha]
 print(f'{S} -> {" ".join(map(str, childrens))}')
